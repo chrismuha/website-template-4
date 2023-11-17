@@ -1,3 +1,1 @@
-# The Ambient Christ
-
-by Joe Masterleo
+# website-template-4
