@@ -17,7 +17,7 @@ body {
 }
 h1 {
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 36pt;
     text-align: center;
 }
 
@@ -36,7 +36,7 @@ header {
     align-items: center;
     flex-wrap: wrap-reverse;
     border-bottom: var(--main-color) 2px solid;
-    padding: 2rem;
+    padding: 24pt;
     overflow-x: hidden !important;
 }
 
@@ -45,25 +45,25 @@ header h1 {
 }
 
 header img {
-    height: 20rem;
+    height: 240.01pt;
 }
 
 header .about-book {
-    width: 30rem;
+    width: 360.01pt;
 }
 
 header .header-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    padding: 1rem 0;
+    gap: 12pt;
+    padding: 12pt 0;
 }
 
 header .header-links a {
     color: white;
-    padding: 0.5rem 1rem;
+    padding: 6pt 12pt;
     background-color:#6d6d6d80;
-    border-radius: 0.2rem;
+    border-radius: 2.4pt;
     transition: 0.1s;
 }
 
@@ -82,7 +82,7 @@ header .header-links a:first-child {
     position: relative;
     padding-bottom: 39.375%;
     width: 70%;
-    margin: 2rem auto;
+    margin: 24pt auto;
 }
 
 iframe {
@@ -97,45 +97,45 @@ iframe {
 /* purchase section */
 .purchase-section {
     background-color: #dff3ff;
-    border-radius: 1rem;
+    border-radius: 12pt;
     width: 95%;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 12pt;
 }
 
 .purchase-methods {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 12pt;
     width: 100%;
     justify-content: space-evenly;
-    margin: 2rem 0;
+    margin: 24pt 0;
 }
 
 .purchase-methods .method {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 24pt;
     justify-content: end;
     align-items: center;
-    padding: 2rem;
-    border-radius: 1rem;
+    padding: 24pt;
+    border-radius: 12pt;
 }
 
 .purchase-methods img {
-    height: 4rem;
+    height: 48pt;
     object-fit: cover;
 }
 
 .purchase-methods a {
     color: white;
-    padding: 0.5rem 1rem;
+    padding: 6pt 12pt;
     background-color:#ff3838;
-    border-radius: 0.2rem;
+    border-radius: 2.4pt;
     transition: 0.1s;
 }
 
@@ -166,14 +166,14 @@ iframe {
 
 .custom-section {
     position: relative;
-    border-radius: 1rem;
+    border-radius: 12pt;
     text-align: center;
     width: 70%;
-    margin: 2rem auto;
-    padding: 1rem;
+    margin: 24pt auto;
+    padding: 12pt;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 12pt;
     color: #000000;
     
 }
@@ -182,31 +182,31 @@ iframe {
 
 .custom-section p {
     background-color: #ffffff85;
-    padding: 1rem;
-    border-radius: 1rem;
-    word-spacing: 0.2rem;
-    letter-spacing: 0.05rem;
-    font-size: 1rem;
+    padding: 12pt;
+    border-radius: 12pt;
+    word-spacing: 2.4pt;
+    letter-spacing: 0.6pt;
+    font-size: 12pt;
 }
 
 .custom-section span {
     opacity: 50%;
-    font-size: 0.9rem;
+    font-size: 10.8pt;
 }
 
 .custom-section .contact-buttons {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    padding: 1rem 0;
+    gap: 12pt;
+    padding: 12pt 0;
     justify-content: center;
 }
 
 .custom-section .contact-buttons a {
     color: white;
-    padding: 0.5rem 2rem;
+    padding: 6pt 24pt;
     background-color:#ff3838;
-    border-radius: 0.2rem;
+    border-radius: 2.4pt;
     transition: 0.1s;
 }
 
@@ -222,18 +222,18 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    padding: 5rem 1rem;
+    padding: 60pt 12pt;
     width: 100%;
 }
 footer img {
-    height: 10rem;
+    height: 120pt;
 }
 /* footer a {
     color: white;
     color: white;
-    padding: 0.5rem 2rem;
+    padding: 6pt 24pt;
     background-color:#000000d8;
-    border-radius: 0.2rem;
+    border-radius: 2.4pt;
     transition: 0.1s;
 }
 footer a:hover {
@@ -242,12 +242,12 @@ footer a:hover {
 
 .icon-button {
     background-color: white;
-    border-radius: 3.6rem;
+    border-radius: 43.2pt;
     cursor: pointer;
     display: inline-block;
-    font-size: 2.0rem;
-    height: 3.6rem;
-    line-height: 3.6rem;
+    font-size: 24pt;
+    height: 43.2pt;
+    line-height: 43.2pt;
     margin: 0 22px;
     position: relative;
     text-align: center;
@@ -255,7 +255,7 @@ footer a:hover {
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-    width: 3.6rem;
+    width: 43.2pt;
     border: 1px solid #ddd;
     box-shadow: 0px 0px 5px #ddd;
 }
@@ -276,10 +276,10 @@ footer a:hover {
     width: 0;
 }
 .icon-button:hover span {
-    width: 3.6rem;
-    height: 3.6rem;
-    border-radius: 3.6rem;
-    margin: -1.8rem;
+    width: 43.2pt;
+    height: 43.2pt;
+    border-radius: 43.2pt;
+    margin: -21.6pt;
 }
 .twitter span {
     background-color: #4099ff;
@@ -295,16 +295,16 @@ footer a:hover {
 .icon-button i {
     background: none;
     color: white;
-    height: 3.6rem;
+    height: 43.2pt;
     left: 0;
-    line-height: 3.6rem;
+    line-height: 43.2pt;
     position: absolute;
     top: 0;
     -webkit-transition: all 0.1s;
        -moz-transition: all 0.1s;
          -o-transition: all 0.1s;
             transition: all 0.1s;
-    width: 3.6rem;
+    width: 43.2pt;
     z-index: 10;
 }
 .icon-button .fa-twitter {
