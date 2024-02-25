@@ -227,6 +227,7 @@ footer img {
     height: 120pt;
 }
 
+/* social buttons */
 .icon-button {
     background-color: white;
     border-radius: 40pt;
@@ -235,7 +236,9 @@ footer img {
     font-size: 20pt;
     height: 40pt;
     line-height: 40pt;
-    margin: 20px 20px;
+    margin: 0px 20px;
+    margin-top: 0px;
+    margin-bottom: 55px;
     position: relative;
     text-align: center;
     -webkit-user-select: none;
@@ -256,7 +259,6 @@ footer img {
     margin: 0;
     position: absolute;
     top: 50%;
-    bottom: 0%;
     -webkit-transition: all 0.3s;
        -moz-transition: all 0.3s;
          -o-transition: all 0.3s;
