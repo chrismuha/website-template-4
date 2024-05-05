@@ -27,7 +27,6 @@ a {
 }
 
 /* header */
-
 header {
     background: linear-gradient(to right, #aedfff, white, #ffd6cc);
     min-height: 80vh;
@@ -75,9 +74,7 @@ header .header-links a:first-child {
     background-color: #ff7e5f;
 }
 
-
 /* video section */
-
 .video-section {
     position: relative;
     padding-bottom: 39.375%;
@@ -144,7 +141,6 @@ iframe {
 }
 
 /* biography section */
-
 #biography {
     background: linear-gradient(to right, #cdebff, #ffb8b894, #4681ffc2);
 	background-size: 400% 400%;
@@ -162,8 +158,8 @@ iframe {
         background-position: 0% 50%;
     }
 }
-/* custom sections */
 
+/* custom sections */
 .custom-section {
     position: relative;
     border-radius: 12pt;
