@@ -219,6 +219,7 @@ footer {
     padding: 60pt 12pt;
     width: 100%;
 }
+
 footer img {
     height: 120pt;
 }
@@ -261,21 +262,26 @@ footer img {
             transition: all 0.3s;
     width: 0;
 }
+
 .icon-button:hover span {
     width: 40pt;
     height: 40pt;
     border-radius: 40pt;
     margin: -20pt;
 }
+
 .twitter span {
     background-color: #4099ff;
 }
+
 .facebook span {
     background-color: #3B5998;
 }
+
 .google-plus span {
     background-color: #db5a3c;
 }
+
 .linkedin span {
     background-color: #0077b5;
 }
@@ -296,18 +302,23 @@ footer img {
     width: 40pt;
     z-index: 10;
 }
+
 .icon-button .fa-twitter {
     color: #4199ff;
 }
+
 .icon-button .fa-facebook {
     color: #3c5998;
 }
+
 .icon-button .icon-google-plus {
     color: #db5a3c;
 }
+
 .icon-button .fa-linkedin {
     color: #0077b5;
 }
+
 .icon-button:hover .fa-twitter,
 .icon-button:hover .fa-facebook,
 .icon-button:hover .fa-linkedin,
