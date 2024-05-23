@@ -15,6 +15,7 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 100%;
 }
+
 h1 {
     font-weight: 500;
     font-size: 36pt;
@@ -171,7 +172,6 @@ iframe {
     flex-direction: column;
     gap: 12pt;
     color: #000000;
-    
 }
 
 .custom-section p {
