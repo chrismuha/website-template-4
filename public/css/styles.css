@@ -62,7 +62,7 @@ header .header-links {
 header .header-links a {
     color: white;
     padding: 6pt 12pt;
-    background-color:#6d6d6d80;
+    background-color: #6d6d6d80;
     border-radius: 2.4pt;
     transition: 0.1s;
 }
@@ -132,7 +132,7 @@ iframe {
 .purchase-methods a {
     color: white;
     padding: 6pt 12pt;
-    background-color:#ff3838;
+    background-color: #ff3838;
     border-radius: 2.4pt;
     transition: 0.1s;
 }
@@ -144,17 +144,19 @@ iframe {
 /* biography section */
 #biography {
     background: linear-gradient(to right, #cdebff, #ffb8b894, #4681ffc2);
-	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
 }
 
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
@@ -199,7 +201,7 @@ iframe {
 .custom-section .contact-buttons a {
     color: white;
     padding: 6pt 24pt;
-    background-color:#ff3838;
+    background-color: #ff3838;
     border-radius: 2.4pt;
     transition: 0.1s;
 }
@@ -241,9 +243,9 @@ footer img {
     position: relative;
     text-align: center;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     width: 40pt;
 }
 
@@ -257,9 +259,9 @@ footer img {
     position: absolute;
     top: 50%;
     -webkit-transition: all 0.3s;
-       -moz-transition: all 0.3s;
-         -o-transition: all 0.3s;
-            transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
     width: 0;
 }
 
@@ -296,9 +298,9 @@ footer img {
     position: absolute;
     top: 0;
     -webkit-transition: all 0.1s;
-       -moz-transition: all 0.1s;
-         -o-transition: all 0.1s;
-            transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
     width: 40pt;
     z-index: 10;
 }
@@ -331,12 +333,15 @@ footer img {
     header {
         text-align: center;
     }
+
     .header-links {
         justify-content: center;
     }
+
     header h1 {
         text-align: center;
     }
+
     .custom-section {
         width: 95%;
     }
